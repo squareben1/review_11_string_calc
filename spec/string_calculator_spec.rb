@@ -8,4 +8,8 @@ describe StringCalc do
   it 'returns single digit' do 
     expect(subject.string_calc("1")).to eq ["1", 1]
   end 
+
+  it 'Adds two digits' do 
+    expect(subject.string_calc("1 + 1")).to eq ["1 + 1", 2]
+  end 
 end 

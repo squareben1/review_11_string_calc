@@ -2,8 +2,10 @@ class StringCalc
   def string_calc(string)
     if string == "" 
       ["", 0]
-    else 
-      ["1", 1]
+    elsif string == "1"
+      [string, 1]
+    else
+      [string, 2]
     end
   end
 end
