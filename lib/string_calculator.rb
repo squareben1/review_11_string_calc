@@ -8,15 +8,15 @@ class StringCalc
 
   def string_calc(string)
     num_arr = create_array(string)
-    # arr[1:]
-    if string == "" 
-      ["", 0]
-    elsif string[2] == "+"
-      [string, (num_arr.sum)]
-    elsif string[2] == "*"
-      [string, (num_arr[0] * num_arr[1])]
+    operator = string[2]
+
+    result = 
+    if string.length < 2 
+      string.to_i
     else
-      [string, (num_arr[0] - num_arr[1])]
+      num_arr[0].public_send operator, num_arr[1]
     end
+
+    [string, result]
   end
 end

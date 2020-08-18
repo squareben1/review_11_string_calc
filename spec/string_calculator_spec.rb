@@ -36,4 +36,8 @@ describe StringCalc do
   it 'Multiplies two digits' do 
     expect(subject.string_calc("1 * 2")).to eq ["1 * 2", 2]
   end 
+
+  xit 'Divides two digits' do 
+    expect(subject.string_calc("2 / 2")).to eq ["2 / 2", 1]
+  end
 end 
