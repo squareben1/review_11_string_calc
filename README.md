@@ -2,9 +2,11 @@
 
 Simple observed Kata to test TDD process.
 
+Feedback PDF saved to repo. Live recording of session [here](https://www.youtube.com/watch?v=fspNlyxSNUY).
+
 ## Retro
 
-Excellent review, happy with test progression. Naturally fell into Chicago style TDD (small version of; built out addition entirely before moving onto subtraction &c.) which wokred well for this problem.
+Excellent review, happy with test progression. Naturally fell into Chicago style TDD (small version of; built out addition entirely before moving onto subtraction &c.) which worked well for this problem.
 
 During code review completed up to subtraction. Robert stopped it here and said it was very well done.
 
